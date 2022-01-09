@@ -19,5 +19,4 @@ func main() {
 	var data valuesSet
 	utils.DebugErr(json.Unmarshal(v, &data))
 	fmt.Println(data)
-
 }
